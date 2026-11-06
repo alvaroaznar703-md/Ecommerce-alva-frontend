@@ -1,0 +1,19 @@
+
+.tituloCarrito {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.contador {
+  background-color: #2563eb;
+  color: white;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 50px;
+  min-width: 25px;
+  text-align: center;
+}

@@ -13,12 +13,12 @@
 .titulo {
     text-align: center;
     font-family: sans-serif;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
-.texto {
+.subtitulo {
     text-align: center;
-    font-size: 1rem;
+    font-size: 2rem;
     color: black;
     font-family: sans-serif;
 }
