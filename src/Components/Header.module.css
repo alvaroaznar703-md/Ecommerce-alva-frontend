@@ -1,52 +1,115 @@
+
 .header {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: rgb(128, 128, 238);
+  width: 100%;
+  min-height: 140px;
+  box-sizing: border-box;
+  padding: 1rem 2.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  background-color: #8080ed;
 }
 
 .titulo {
-    text-align: center;
-    font-family:sans-serif;
-    font-size: 2rem;
-    border-bottom: 3px solid black;
-    
+  margin: 0;
+  text-align: center;
+}
+
+.acciones {
+  position: absolute;
+  right: 2.5rem;
+
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.carrito {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.carrito span {
+  color: red;
+  font-size: 1rem;
 }
 
 .menuBtn {
-    position: absolute;
-    right: 25px;
-    top: 50%;
-    transform: translateY(-50%);
-
-    font-size: 30px;
-    background: none;
-    border: none;
-    cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
 }
 
 .nav {
-    position: absolute;
-    top: 100%;
-    right: 25px;
+  position: absolute;
+  top: 100%;
+  right: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+  background-color: #bbbbdc;
+  z-index: 10;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+/* TABLETS Y CELULARES */
+
+@media (max-width: 768px) {
+
+  .header {
+    min-height: auto;
+    padding: 1.2rem 1rem;
 
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    align-items: center;
+    gap: 1.2rem;
+  }
 
-    padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-    z-index: 10;
+  .titulo {
+    width: 100%;
+    font-size: clamp(1rem, 5vw, 1.5rem);
+    text-align: center;
+    overflow-wrap: break-word;
+  }
+
+  .acciones {
+    position: static;
+    align-self: flex-end;
+
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+  }
+
+  .nav {
+    top: 100%;
+    right: 1rem;
+  }
 }
-.link{
-    text-decoration:none;
-    color:rgb(14, 70, 199);
-    font-family: sans-serif;
-    font-size: 1rem;
 
+/* CELULARES PEQUEÑOS */
 
+@media (max-width: 400px) {
+
+  .header {
+    padding: 1rem 0.5rem;
+  }
+
+  .titulo {
+    font-size: 1.1rem;
+  }
 
 }

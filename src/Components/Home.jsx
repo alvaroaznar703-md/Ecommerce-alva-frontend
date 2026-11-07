@@ -1,13 +1,18 @@
-import React from 'react'
+
 import styles from "./Home.module.css";
 
+
+
 export const Home = () => {
+
+
   return (
     <div className={styles.div}><br>
         
         </br>
 
         <h2 className={styles.subtitulo}>Bienvenidos a este E-commerce 🛒</h2>
+
 
         <h4 className={styles.titulo} >✅Somos una tienda online dedicada a ofrecer productos
           tecnológicos de calidad. Encontrá notebooks,
