@@ -58,7 +58,14 @@
 .precio {
   font-size: 1.2rem;
   font-weight: bold;
-  color: #333;
+  color: #16a34a;
+  font-weight: bold;
+}
+.titulo{
+  color: #123B7A;
+  font-family: sans-serif;
+  font-weight: bold;
+  
 }
 
 .detalle {

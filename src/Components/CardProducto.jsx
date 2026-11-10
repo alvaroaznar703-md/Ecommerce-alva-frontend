@@ -22,6 +22,7 @@ export const CardProducto = () => {
       : [];
 
   console.log("Productos recibidos:", listaProductos);
+  
 
   if (cargando) {
     return (
@@ -43,7 +44,7 @@ export const CardProducto = () => {
 
   return (
     <div className={styles.contenedor}>
-      <h2>Productos disponibles</h2>
+      <h2 className={styles.titulo}>Productos disponibles:</h2>
 
       <div className={styles.grid}>
 

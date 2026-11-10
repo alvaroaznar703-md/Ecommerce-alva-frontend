@@ -11,7 +11,7 @@ export const CarritoPage = () => {
 
         <div>
             <h2>Mi Carrito</h2>
-            <Link to="/productos">← Seguir comprando</Link>
+            <Link to="/productos">← SEGUIR COMPRANDO</Link>
 
             <Carrito />
 
