@@ -37,7 +37,8 @@
 
 .carrito span {
   color: red;
-  font-size: 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 .menuBtn {

@@ -1,0 +1,100 @@
+.contenedor {
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.contenedor h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2rem;
+}
+
+.card {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.imagen {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.2rem;
+  flex: 1;
+}
+
+.info h3 {
+  text-align: center;
+  margin: 0;
+}
+
+.precio {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.detalle {
+  text-decoration: none;
+  color: #4b4bd8;
+  font-weight: bold;
+}
+
+.boton {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #4b4bd8;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #3535a8;
+}
+
+/* Diseño responsive */
+
+@media (max-width: 600px) {
+  .contenedor {
+    padding: 1rem;
+  }
+
+  .grid {
+    gap: 1rem;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 320px;
+  }
+}
