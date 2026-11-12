@@ -3,6 +3,7 @@ import { HomePage } from "./pages/HomePage";
 import {CarritoPage} from "./pages/CarritoPage";
 import { ProductoPage } from "./pages/ProductoPage";
 import { DetallePage } from "./pages/DetallePage";
+import { CompraPage } from "./pages/CompraPage";
 
 
 
@@ -18,6 +19,7 @@ import { DetallePage } from "./pages/DetallePage";
 
         <Route path="/productos/:id" element={<DetallePage />} />
 
+        <Route path="/compra" element={<CompraPage />} />
 
 
 

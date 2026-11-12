@@ -1,10 +1,13 @@
 import { useFetch } from "../hooks/useFetch";
 import { useParams, useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
+import { useCarritoStore } from "../store/carritoStore";
 import styles from "./DetalleProducto.module.css";
 
 export const DetalleProducto = () => {
-
+const agregarProductos = useCarritoStore(
+    (state) => state.agregarProductos
+  );
 const { id } = useParams();
  const navigate = useNavigate();
 
@@ -68,11 +71,14 @@ return (
             </Link>
 
             <button
-                className={styles.boton}
-                onClick={() => navigate("/compra")}
-            >
-                Comprar
-            </button>
+    className={styles.boton}
+    onClick={() => {
+        agregarProductos(producto);
+        navigate("/compra");
+    }}
+>
+    Comprar
+</button>
         </div>
 
     </div>
