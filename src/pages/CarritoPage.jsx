@@ -9,9 +9,9 @@ export const CarritoPage = () => {
     <>
         <Header />
 
-        <div>
-            <h2>Mi Carrito</h2>
-            <Link to="/productos">← SEGUIR COMPRANDO</Link>
+        <div style={{backgroundColor:"antiquewhite",}}>
+            <h2 style={{fontFamily:"sans-serif", fontSize:"1.4 rem", textAlign:"center",paddingTop:"2rem"}}>Mi Carrito</h2>
+            <Link style={{textDecoration:"none"}} to="/productos">← SEGUIR COMPRANDO</Link>
 
             <Carrito />
 

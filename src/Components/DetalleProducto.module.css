@@ -1,0 +1,46 @@
+.contenedor{
+  width: 90%;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 12px;
+
+}
+
+.imagenDetalle {
+  width: 100%;
+  max-width: 600px;
+  height: 300px;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+.titulo{
+    text-align: center;
+    font-family: sans-serif;
+}
+.parrafo{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.link{
+    text-decoration: none;
+    font-size: 1.4rem;
+    margin-right: 30px;
+}
+.boton{
+  background-color: #5151e9;
+  color: #f0ffff;
+  cursor: pointer;
+  border: none;
+  padding:  9px;
+  border-radius: 4px;
+  
+}

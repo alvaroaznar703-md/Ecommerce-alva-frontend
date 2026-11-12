@@ -1,10 +1,8 @@
-.tutulo3{
-  text-align: center;
-  font-family: sans-serif;
-}
+
 .parrafo{
   text-align: center;
     font-family: sans-serif;
+    font-size: 1.4rem;
 
 }
 .contador{
@@ -22,6 +20,8 @@
   justify-content: center;
   align-items: center;
   gap: 30px;
+  background-color: antiquewhite;
+  width: auto;
 }
 .precio{
   color:#106b4d;
@@ -35,7 +35,7 @@
 }
 .eliminar{
   border: none;
-  background-color: #f0ffff;
+  background-color: antiquewhite;
 }
 .botondos{
   background-color: #5151e9;
@@ -48,4 +48,15 @@
 .titulo{
   font-family: sans-serif;
   color:#4141e0
+}
+.estructura{
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding: 30px;
+    
 }

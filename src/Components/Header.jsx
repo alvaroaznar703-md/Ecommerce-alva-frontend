@@ -45,12 +45,12 @@ export const Header = () => {
             Productos
           </Link>
 
-          <Link className={styles.link} to="/contacto" onClick={() => setMenuAbierto(false)}>
-            Contactos
-          </Link>
-
           <Link className={styles.link} to="/carrito" onClick={() => setMenuAbierto(false)}>
             Carrito
+          </Link>
+
+          <Link className={styles.link} to="/compra" onClick={() => setMenuAbierto(false)}>
+            Comprar
           </Link>
 
         </nav>

@@ -2,6 +2,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HomePage } from "./pages/HomePage";
 import {CarritoPage} from "./pages/CarritoPage";
 import { ProductoPage } from "./pages/ProductoPage";
+import { DetallePage } from "./pages/DetallePage";
+
 
 
  const App = () => {
@@ -13,6 +15,8 @@ import { ProductoPage } from "./pages/ProductoPage";
         <Route path="/carrito" element={<CarritoPage />} />
 
         <Route path="/productos" element={<ProductoPage />} />
+
+        <Route path="/productos/:id" element={<DetallePage />} />
 
 
 
