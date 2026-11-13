@@ -29,24 +29,37 @@ ecommers-alva/
 │   └── imagenes/
 │
 ├── src/
-│   ├── components/
-│   │   ├── Header/
-│   │   ├── CardProducto/
-│   │   └── Carrito/
-│   │
-│   ├── pages/
-│   │   ├── HomePage/
-│   │   ├── ProductoPage/
-│   │   ├── CarritoPage/
-│   │   └── Compra/
+│   ├── Components/
+│   │   ├── CardProducto.jsx
+│   │   ├── CardProducto.module.css
+│   │   ├── Carrito.jsx
+│   │   ├── Carrito.module.css
+│   │   ├── Compra.jsx
+│   │   ├── Compra.module.css
+│   │   ├── DetalleProducto.jsx
+│   │   ├── DetalleProducto.module.css
+│   │   ├── Footer.jsx
+│   │   ├── Footer.module.css
+│   │   ├── Header.jsx
+│   │   ├── Header.module.css
+│   │   ├── Home.jsx
+│   │   └── Home.module.css
 │   │
 │   ├── hooks/
 │   │   └── useFetch.js
+│   │
+│   ├── pages/
+│   │   ├── CarritoPage.jsx
+│   │   ├── CompraPage.jsx
+│   │   ├── DetallePage.jsx
+│   │   ├── HomePage.jsx
+│   │   └── ProductoPage.jsx
 │   │
 │   ├── store/
 │   │   └── carritoStore.js
 │   │
 │   ├── App.jsx
+│   ├── index.css
 │   └── main.jsx
 │
 ├── package.json
